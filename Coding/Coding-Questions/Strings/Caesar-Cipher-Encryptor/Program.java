@@ -12,6 +12,8 @@ class Problem {
 			// Append it to the result
 			result.append(shiftedChar);
 		}
+
+		return result.toString();
 	}
 	
 	private static char shiftCharacter(char c, int key){
